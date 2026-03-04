@@ -4,3 +4,4 @@
 **Contacto**: donovansaez@liceovvh.cl
 
 ## Descripción
+Un repositorio para almacenar todas las actividades de la asignatura Desarrollo Web del año 2026.
