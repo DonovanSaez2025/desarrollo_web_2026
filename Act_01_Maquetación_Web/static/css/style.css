@@ -12,6 +12,7 @@
     --verde: #1f8714;
     --azul: #2c5edd;
     --amarillo: #fef305;
+    --amarillo-boton: #fdee31;
     --rojo: #e42014;
     --morado: #8e2487;
 }
@@ -52,21 +53,46 @@ h1 {
 }
 
 .barralateral {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 35px 26px 319px 26px;
     background-color: var(--azul);
 }
 
+.botonlateral {
+    background-color: var(--amarillo-boton);
+    border: none;
+    padding: 12px 42px;
+    border-radius: 90px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .cajaroja {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
     background-color: var(--rojo);
 }
 
-.cajamarilla {
+.contendortarjetas {
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    padding: 85px 89px;
     background-color: var(--amarillo);
 }
 
 .cajamorada {
+    padding: 5px;
     background-color: var(--morado);
 }
 
 .lineagris {
+    padding: 5px;
     background-color: var(--gris-oscuro);
 }
