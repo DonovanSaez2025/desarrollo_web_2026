@@ -1,2 +1,6 @@
-# desarrollo_web_2026
-Trabajos de desarrollo web
+# Desarrollo Web 2026
+**Autor**: Donovan Sáez R.
+
+**Contacto**: donovansaez@liceovvh.cl
+
+## Descripción
