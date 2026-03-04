@@ -7,8 +7,10 @@
 
 /* Variables de colores */
 :root {
+    --blanco: #fff;
     --gris: #dbd8d8;
     --gris-oscuro: #c2c1c6;
+    --gris-boton: #efe9ed;
     --verde: #1f8714;
     --azul: #2c5edd;
     --amarillo: #fef305;
@@ -24,6 +26,13 @@ body {
     font-family: sans-serif;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 90px;
+    font-weight: bold;
+}
+
 /* Propiedades de la caja gris */
 .cajagris {
     max-width: 0 auto;
@@ -37,12 +46,12 @@ body {
 header {
     padding: 25px;
     background-color: var(--verde);
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 /* Propiedades del H1 */
 h1 {
-    color: #fff;
+    color: var(--blanco);
     font-size: 44px;
 }
 
@@ -52,6 +61,7 @@ h1 {
     justify-content: space-between;
 }
 
+/* Propiedades de la barra lateral */
 .barralateral {
     display: flex;
     flex-direction: column;
@@ -60,39 +70,66 @@ h1 {
     background-color: var(--azul);
 }
 
+/* Propiedades de los botones de la barra lateral*/
 .botonlateral {
     background-color: var(--amarillo-boton);
-    border: none;
-    padding: 12px 42px;
-    border-radius: 90px;
     font-size: 18px;
-    font-weight: bold;
+    padding: 12px 42px;
 }
 
+/* Propiedades de la caja morada */
 .cajaroja {
+    padding: 17px 17px 17px 17px;
     display: flex;
     flex-direction: column;
     width: 590px;
+    height: 306px;
     background-color: var(--rojo);
 }
 
+/* Propiedades del contenedor de las tarjetas */
 .contendortarjetas {
-    padding: 17px;
     display: flex;
     justify-content: space-between;
 }
 
+/* Propiedades de las tarjetas */
 .tarjeta {
     padding: 85px 89px;
     background-color: var(--amarillo);
 }
 
+/* Propiedades de la caja morada */
 .cajamorada {
-    padding: 5px;
+    margin-top: 20px;
+    padding: 20px 0 25px 0;
     background-color: var(--morado);
 }
 
+/* Propiedades del botón para ver más */
+.botonmas {
+    color: var(--morado);
+    background-color: var(--gris-boton);
+    font-size: 20px;
+    padding: 12px 36px;
+}
+
+/* Propiedades del pie de página */
+.pie {
+    padding: 17px 25px 17px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 105px;
+}
+
+/* Propiedades de las lineas grises */
 .lineagris {
-    padding: 5px;
+    padding: 5.1px;
     background-color: var(--gris-oscuro);
+}
+
+/* Propiedad de la tercera linea gris */
+.lineatres {
+    padding-right: 109px;
 }
