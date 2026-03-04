@@ -5,6 +5,62 @@
  box-sizing: border-box;   
 }
 
+/* Variables de colores */
+:root {
+    --gris: #dbd8d8;
+    --gris-oscuro: #c2c1c6;
+    --verde: #1f8714;
+    --azul: #2c5edd;
+    --amarillo: #fef305;
+    --rojo: #e42014;
+    --morado: #8e2487;
+}
+
+/* Propiedades de body */
 body {
+    margin: 16px 217px;
+    text-align: center;
     font-family: sans-serif;
+}
+
+/* Propiedades de la caja gris */
+.cajagris {
+    max-width: 0 auto;
+    padding: 19px 52px;
+    background-color: var(--gris);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Propiedades de la cabecera */
+header {
+    padding: 25px;
+    background-color: var(--verde);
+    margin-bottom: 15px;
+}
+
+/* Propiedades del H1 */
+h1 {
+    color: #fff;
+    font-size: 44px;
+}
+
+.barralateral {
+    background-color: var(--azul);
+}
+
+.cajaroja {
+    background-color: var(--rojo);
+}
+
+.cajamarilla {
+    background-color: var(--amarillo);
+}
+
+.cajamorada {
+    background-color: var(--morado);
+}
+
+.lineagris {
+    background-color: var(--gris-oscuro);
 }
