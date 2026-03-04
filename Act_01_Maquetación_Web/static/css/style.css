@@ -45,6 +45,12 @@ h1 {
     font-size: 44px;
 }
 
+/* Propiedades del contenedor */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
 .barralateral {
     background-color: var(--azul);
 }
