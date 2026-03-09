@@ -20,7 +20,9 @@
 </head>
 
 <body>
+    <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg fixed-top barra-oscura">
+        <!-- Contenedor de la barra de navegación -->
         <div class="container-fluid px-5">
             <a class="navbar-brand text-danger fw-bold fs-3" href="#">STREAMFLIX</a>
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
@@ -28,14 +30,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- Agrupación de botones de la barra de navegación -->
             <div class="collapse navbar-collapse" id="menuPrincipal">
+                <!-- Lista de enlaces -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link text-white-50" href="#">Series</a></li>
                     <li class="nav-item"><a class="nav-link text-white-50" href="#">Películas</a></li>
                     <li class="nav-item"><a class="nav-link text-white-50" href="#">Mi Lista</a></li>
                 </ul>
-
+                
+                <!-- Botón de búsqueda, notificaciones y perfil -->
                 <div class="d-flex align-items-center text-white gap-4">
                     <i class="bi bi-search fs-5" style="cursor: pointer;"></i>
                     <i class="bi bi-bell fs-5" style="cursor: pointer;"></i>
@@ -45,15 +50,16 @@
             </div>
         </div>
     </nav>
-    <header class="hero-portada vh-100 d-flex align-items-center text-white">
 
+    <!-- Cabecera de la página -->
+    <header class="hero-portada vh-100 d-flex align-items-center text-white">
+        <!-- Contenedor de la cabecera -->
         <div class="container-fluid px-5">
-            <h1 class="display-1 fw-bold mb-4">Stranger Things</h1>
+            <h1 class="display-1 fw-bold mb-4">The Grinch (2000)</h1>
 
             <p class="lead w-50 d-none d-md-block mb-4">
-                Cuando un niño desaparece, sus amigos, su familia y la policía se ven envueltos en una serie de eventos
-                misteriosos al tratar de encontrarlo. Un misterio que involucra experimentos secretos y fuerzas
-                sobrenaturales.
+                El Grinch , una criatura verde amargada y gruñona que vive en una cueva en el Monte Crumpit, desprecia
+                la Navidad y planea arruinársela a los Quién de VillaQuién.
             </p>
             <div class="botones-hero">
                 <button class="btn btn-light px-4 py-2 me-3 fs-5 fw-bold">
@@ -66,13 +72,164 @@
         </div>
     </header>
 
+    <!-- Contenido principal de la página -->
     <main class="container-fluid px-5 seccion-catalogo mb-5">
+        <!-- Título de la categoría -->
         <h3 class="text-white mb-4 fw-bold">Tendencias ahora</h3>
 
+        <!-- Fila 1 -->
         <div class="row g-3">
+            <!-- Tarjeta de película -->
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="card bg-transparent border-0 tarjeta-pelicula">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e6/Stranger_Things_1_poster.jpg/250px-Stranger_Things_1_poster.jpg"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTgxODk4OTQtMjc2MC00NGRmLWJlMmMtNTdlZjI1NDE0NzE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxRMuykr0VGon4cX8O5tTlZJ4uwWLflDgsg&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/1b/98/1b986c23c4340acab6efabfed92459b0.jpg"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDhmNGQwM2ItOTQ5OS00NzkyLWIwZWYtMGEwMTFjYzkzMDhkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNJ6-zTzSEp_zCYvSkq8ipl3U4FFamD3zevA&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+        </div>
+
+        <!-- Título de la categoría -->
+        <h3 class="text-white mb-4 fw-bold">Recomendadas para tí</h3>
+        <!-- Fila 2 -->
+        <div class="row g-3">
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkt9SAEzs0Eo53oLVV91WsKNEP3HPqOcQnBg&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBf2XS9nur8B2H6lToTnQIj4FWjEHPlNc4Sw&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjE5NmY1NzEtNzRiYy00YmI2LWE0MzYtMGNkOTU2NTZkYWY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_wBpyH2mb1WGBxm1qgywFaCwPQFwMSVMiVg&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwwK7iTwktjP4lOU4upMhZcZVHdxtjaTk-8g&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYZErmNsJddeJzDWD3v-YMlikQiex4JkwfFQ&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+        </div>
+
+        <!-- Título de la categoría -->
+        <h3 class="text-white mb-4 fw-bold">Selección de Dreamworks</h3>
+
+        <!-- Fila 3 -->
+        <div class="row g-3">
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE1Ecn63meOsQMCiFXqkXCMDs4RrSw8pkTMw&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE2vR2vrff2g2CnkQb6Hip-kaLv9z8dpIaFA&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4IEIF0C1f2NaVC-yT2sRrR31mzotiEEV01Q&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlpDG90_0s9iZflk23U85Cz6x0EmEBx5hww&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHgzZrcRYlXTNtOCqyPh7xrC5Y3K78Hf8OQ&s"
+                        class="card-img rounded-2 shadow" alt="Póster">
+                </div>
+            </div>
+
+            <!-- Tarjeta de película -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card bg-transparent border-0 tarjeta-pelicula">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZDU5MDNiMGItYjVmZi00NDUxLTg2OTktNGE0NzNlNzM4NzgyXkEyXkFqcGc@._V1_.jpg"
                         class="card-img rounded-2 shadow" alt="Póster">
                 </div>
             </div>

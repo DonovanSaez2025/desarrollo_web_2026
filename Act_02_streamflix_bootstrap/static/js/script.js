@@ -1,4 +1,4 @@
-console.log("Conectado a JS...");
+console.log("Conectado a JS..."); 
 
 const navbar = document.querySelector('.barra-oscura');
 
